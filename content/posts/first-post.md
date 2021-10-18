@@ -5,3 +5,12 @@ draft: false
 ---
 
 test
+ここから先は記事開いたら見れる
+
+<!--more-->
+
+```php
+<?php
+    $hoge = 123;
+?>
+```

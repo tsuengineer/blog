@@ -17,6 +17,8 @@ fontfamily = "Lato,YuGothic,'Hiragino Kaku Gothic Pro',Meiryo,sans-serif" # Opti
 logofontfamily = "Lobster, cursive" # Optional, Override logo font.
 
 enableHighlight = true # highlight.js option
+pygmentsUseClasses = true
+pygmentsCodefences = true
 
 [params.author]
 thumbnail = "images/author.jpg"
