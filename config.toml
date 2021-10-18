@@ -1,0 +1,29 @@
+baseURL = 'https://tsuengineer.github.io/blog/'
+languageCode = 'ja'
+title = 'tsuぶろぐ'
+theme = 'hugo_theme_robust'
+publishDir = "docs"
+
+#googleAnalytics = "UA-XXXXXXXX-XX" # Optional
+#disqusShortname = "XYW"
+
+[params]
+description = "This is site description"
+dateformat = "Jan 2, 2006" # Optional
+
+# Fonts settings.
+googlefonts = "https://fonts.googleapis.com/css?family=Lobster|Lato:400,700" # Optional, Include google fonts.
+fontfamily = "Lato,YuGothic,'Hiragino Kaku Gothic Pro',Meiryo,sans-serif" # Optional, Override body font family.
+logofontfamily = "Lobster, cursive" # Optional, Override logo font.
+
+enableHighlight = true # highlight.js option
+
+[params.author]
+thumbnail = "images/author.jpg"
+name = "tsu"
+description = "<p>test</p><p>texttexttext</p>"
+twitter = "https://twitter.com/tsu_eng"
+github = "https://github.com/tsuengineer"
+
+[outputs]
+page = [ "HTML", "AMP" ] # if you want AMP enable.
